@@ -5,7 +5,7 @@ part3:  Create the code in intellij for the program below.
 */
 
 /*
-Create a simple calculator that supports +,-,/,*,c,q  operators, see details below
+Create a simple calculator that supports +,-,/,*,c,q  operators, see details below  (the operators are case sensitive, for example C should not do anything).
 At the start the calculator program should print out the following prompt to the user: "Enter a number or operator(+,-,/,*,c,q):"
 
 The calculator should continue to wait for inputs and update (print) the current result (as a double) based on the last inputs when ever a number or "c" operator is entered.
