@@ -21,7 +21,7 @@ the lines marked with # are comments to help explain why what happens, happens.
 
 Example testCases
 //test1:
-o:Enter a number or operator(+,-,/,*,c)
+o:Enter a number or operator(+,-,/,*,c):
 i:7
 #a number is entered so we need to print, and since there was no operator entered it should just print the number we entered
 o:7.0
