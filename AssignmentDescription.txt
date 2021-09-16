@@ -1,0 +1,49 @@
+/* This assignment has 3 parts (1 of which you alread completed)
+part1:  Create test cases for this assignment.
+part2:  Create a Flowchart or pseudo code for this program- This will not be turned in but will be used as part of the explanation.
+part3:  Create the code in intellij for the program below.
+*/
+
+/*
+Create a simple calculator that supports +,-,/,*,c  operators, see details below
+At the start the calculator program should print out the following prompt to the user: "Enter a number or operator(+,-,/,*,c):"
+
+The calculator should continue to wait for inputs and update (print) the current result (as a double) based on the last inputs when ever a number or "c" operator is entered.
+The "c" operator is the clear operator and it should set the result to zero.
+(see the example test case below to better understand, and ask Mr. Baker if you are still not sure what the program should do).
+
+Any invalid inputs should result in the following message:  "Invalid Input"  and reask for an input, aside from displaying the error message the calculator should act
+like nothing was entered for invalid inputs.
+
+Assumptions: None
+
+the lines marked with # are comments to help explain why what happens, happens.
+
+Example testCases
+//test1:
+o:Enter a number or operator(+,-,/,*,c)
+i:7
+#a number is entered so we need to print, and since there was no operator entered it should just print the number we entered
+o:7.0
+i:-
+i:5
+#a number is entered so we need to calculate the new result based on the last valid operator entered and the value we last printed since the last time we displayed the result
+o:2.0
+i:+
+i:8.0
+o:10.0
+i:3
+#no operator was entered since the last time we printed so we should just print the new input to the screen
+o:3.0
+i:+
+i:-
+i:%
+o:Invalid Input
+i:1.0
+#a number was entered so we use the last valid operator (-) since the last time we printed to get the new value.
+o:2.0
+i:-
+i:c
+#the c operator always makes us print 0 to "clear"
+o:0.0
+//
