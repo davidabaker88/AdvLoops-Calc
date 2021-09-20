@@ -2,4 +2,6 @@
 .  // <- separates the test cases (needed at start and end)
 .  i: <- specifies input to be passed to the scanner if any is needed
 .  o: <- specifies any expected output to be printed
+
+  be sure to remember to end each test with the q operator for the calculator
 /////////////////////////////////
